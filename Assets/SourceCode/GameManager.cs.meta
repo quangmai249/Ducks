@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4d15abb80c764a34281a672c7a7cf968
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - textNewHighestScore: {instanceID: 0}
+  - textScore: {instanceID: 0}
+  - textHighestScore: {instanceID: 0}
+  - textcountdownStartGame: {instanceID: 0}
+  - parFirework: {instanceID: 0}
+  - panelGameOver: {instanceID: 0}
+  - panelPause: {instanceID: 0}
+  - panelCountDownStartGame: {instanceID: 0}
+  - resultGame: {fileID: 11400000, guid: 9d8aca160f15d7b47b242f89d271dea8, type: 2}
+  - coinManager: {fileID: 11400000, guid: 8e5f2978ed7185844bf222b08d405942, type: 2}
+  - topScore: {fileID: 11400000, guid: 04829d0d3b8116b47b549f88c30b1cc7, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

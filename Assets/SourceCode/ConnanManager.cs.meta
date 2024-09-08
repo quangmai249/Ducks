@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 30e037c60482f0e44950d8c966c8090d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - connanFire: {instanceID: 0}
+  - setting: {fileID: 11400000, guid: 5abba83848506ac48b631fac9d27b4f5, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2b5c23c28a3cdc8429af651f9b50b2f5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - audioClipExplosions: {instanceID: 0}
+  - audioDuckDead: {instanceID: 0}
+  - setting: {fileID: 11400000, guid: 5abba83848506ac48b631fac9d27b4f5, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: df75fb614c026d64c9933905ce7cfedb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - parDestroyDuck: {instanceID: 0}
+  - setting: {fileID: 11400000, guid: 5abba83848506ac48b631fac9d27b4f5, type: 2}
+  - coin: {fileID: 11400000, guid: 8e5f2978ed7185844bf222b08d405942, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
