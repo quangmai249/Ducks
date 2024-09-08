@@ -10,18 +10,13 @@ using UnityEngine;
 public class TopScore : ScriptableObject
 {
     [SerializeField] List<int> _topScore;
-    [SerializeField] int _quantityScore = 5;
+    int _quantityScore = 5;
     public void SetTopScore(int score)
     {
-        if (_topScore.Count > _quantityScore - 1)
+        if (_topScore.Count > _quantityScore - 1 && score > _topScore.Min())
         {
-            if (score > _topScore.Min())
-            {
-                _topScore.Remove(_topScore.Min());
-                _topScore.Add(score);
-            }
-            else
-                return;
+            _topScore.Remove(_topScore.Min());
+            _topScore.Add(score);
         }
         else
         {
