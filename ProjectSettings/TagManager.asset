@@ -12,6 +12,7 @@ TagManager:
   - Rocket
   - Duck
   - Train
+  - Maps
   layers:
   - Default
   - TransparentFX

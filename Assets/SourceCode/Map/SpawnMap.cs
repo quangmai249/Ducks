@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class SpawnMap : MonoBehaviour
 {
-    public List<GameObject> mapLand;
+    public MapSelection mapSelection;
     void Start()
     {
-        Instantiate(mapLand[RandomMap()], mapLand[RandomMap()].transform.position, mapLand[RandomMap()].transform.rotation);
-    }
-    int RandomMap()
-    {
-        return Random.Range(0, mapLand.Count);
+        if (mapSelection != null)
+            Instantiate(mapSelection.GetMapSelection()
+            , mapSelection.GetMapSelection().transform.position
+            , mapSelection.GetMapSelection().transform.rotation);
+        else
+            return;
     }
 }

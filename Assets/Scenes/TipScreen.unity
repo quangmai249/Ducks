@@ -947,7 +947,7 @@ MonoBehaviour:
   textTips: {fileID: 803000901}
   tips:
   - Don't Click to Boom
-  - Go to Shop and open new Maps
+  - Make gold and open new Maps
   - Don't miss click to Ducks, please!
 --- !u!4 &1682606245
 Transform:

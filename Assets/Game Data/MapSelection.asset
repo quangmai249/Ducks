@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4014227295c22f43bf1f6b1a21f1718, type: 3}
-  m_Name: DataMoney
+  m_Script: {fileID: 11500000, guid: 0978e080c163e9f4e914fa0cb3d47b38, type: 3}
+  m_Name: MapSelection
   m_EditorClassIdentifier: 
-  _money: 2520
+  map: {fileID: 5208382195266779343, guid: a2f1d92f44952b24198683def6ace7bf, type: 3}

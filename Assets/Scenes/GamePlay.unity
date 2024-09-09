@@ -1483,10 +1483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a94ed05cc970946803728e539cbab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapLand:
-  - {fileID: 5208382195266779343, guid: a2f1d92f44952b24198683def6ace7bf, type: 3}
-  - {fileID: 6427302355750310189, guid: 4ad7a5a7fc42f6b49945c81440d0dfe0, type: 3}
-  - {fileID: 1739153130918889006, guid: 277229067b269ba46a0c9a7b1d685454, type: 3}
+  mapSelection: {fileID: 11400000, guid: 692fc06e86623874a9e61d0a6c894d82, type: 2}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1574,13 +1571,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3696438, y: -0.23911758, z: 0.099045746, w: 0.89239913}
+  m_LocalRotation: {x: 0.25000006, y: -0.24999997, z: 0.066987306, w: 0.9330127}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 45, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 30, y: -30, z: 0}
 --- !u!1 &830362717
 GameObject:
   m_ObjectHideFlags: 0

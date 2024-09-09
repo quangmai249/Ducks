@@ -21,6 +21,10 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("TipScreen", LoadSceneMode.Single);
     }
+    public void SelectMap()
+    {
+        SceneManager.LoadScene("MapSelection", LoadSceneMode.Single);
+    }
     public void ExitGame()
     {
         Application.Quit();
