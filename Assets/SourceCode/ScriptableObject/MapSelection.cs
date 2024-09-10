@@ -10,8 +10,8 @@ public class MapSelection : ScriptableObject
     [SerializeField] private GameObject map;
     public void SetMapSelection(GameObject _m)
     {
-        this.map = _m.gameObject;
 #if UNITY_EDITOR
+        this.map = _m.gameObject;
         EditorUtility.SetDirty(this);
 #endif
     }

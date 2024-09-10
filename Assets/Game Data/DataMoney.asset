@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4014227295c22f43bf1f6b1a21f1718, type: 3}
   m_Name: DataMoney
   m_EditorClassIdentifier: 
-  _money: 0
+  _money: 240

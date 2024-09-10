@@ -10,10 +10,9 @@ public class Money : ScriptableObject
     [SerializeField] int _money;
     public void SetMoney(int m)
     {
-        this._money += m;
 #if UNITY_EDITOR
+        this._money += m;
         EditorUtility.SetDirty(this);
-        //AssetDatabase.SaveAssets();
 #endif
     }
     public int GetMoney() { return this._money; }

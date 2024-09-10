@@ -6,7 +6,6 @@ public class ConnanManager : MonoBehaviour
 {
     public ParticleSystem connanFire;
     public Setting setting;
-
     private AudioSource connanFireSound;
     private GameManager gameManager;
     private void Start()
@@ -15,7 +14,7 @@ public class ConnanManager : MonoBehaviour
         connanFireSound = GetComponent<AudioSource>();
         connanFireSound.volume = setting.GetVolume();
     }
-    private void FixedUpdate()
+    private void Update()
     {
         if (gameManager.isGameOver == false)
         {

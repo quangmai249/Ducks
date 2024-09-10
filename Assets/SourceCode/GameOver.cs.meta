@@ -3,19 +3,7 @@ guid: d10db7155ca5a9a4e9de245f30121b5b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - textScore: {instanceID: 0}
-  - textTimePlayed: {instanceID: 0}
-  - textCoin: {instanceID: 0}
-  - textCoinEarn: {instanceID: 0}
-  - iconCoin: {instanceID: 0}
-  - btnReset: {instanceID: 0}
-  - btnHome: {instanceID: 0}
-  - audioClip: {instanceID: 0}
-  - resultGame: {fileID: 11400000, guid: 9d8aca160f15d7b47b242f89d271dea8, type: 2}
-  - setting: {fileID: 11400000, guid: 5abba83848506ac48b631fac9d27b4f5, type: 2}
-  - money: {fileID: 11400000, guid: cb771e86822261a4fbfbbcfd2a850d54, type: 2}
-  - topScore: {fileID: 11400000, guid: 04829d0d3b8116b47b549f88c30b1cc7, type: 2}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
