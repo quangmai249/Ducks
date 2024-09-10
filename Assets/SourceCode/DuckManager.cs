@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class DuckManager : MonoBehaviour
 {
     [SerializeField] float minRangeUp = 10f;

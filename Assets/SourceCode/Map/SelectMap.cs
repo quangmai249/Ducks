@@ -11,9 +11,16 @@ public class SelectMap : MonoBehaviour
     public List<TextMeshProUGUI> mapText;
     public Button btnPlayGame;
     public MapSelection mapSelection;
+    public Money money;
+    public TextMeshProUGUI textMoney;
     private void Start()
     {
+        textMoney.text = money.GetMoney().ToString();
         btnPlayGame.gameObject.SetActive(false);
+    }
+    private void Update()
+    {
+        textMoney.text = money.GetMoney().ToString();
     }
     public void MapIsland()
     {

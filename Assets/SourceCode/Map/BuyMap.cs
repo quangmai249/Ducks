@@ -1,35 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BuyMap : MonoBehaviour
 {
-    public TextMeshProUGUI textMoney;
-    //public TextMeshProUGUI textConfirm;
-    //public TextMeshProUGUI textName;
-    //public RawImage imgConfirm;
-    //public MapSelection mapSelection;
+    public Button btn;
+    public Button btn_lock;
+    public TextMeshProUGUI textNotify;
+    public GameObject panelConfirm;
     public Money money;
+    public int price = 60;
     private void Start()
     {
-        textMoney.text = money.GetMoney().ToString();
-        //textName.text = mapSelection.name;
-        //textConfirm.gameObject.SetActive(false);
-        //imgConfirm.gameObject.SetActive(false);
+        btn.interactable = false;
+        btn_lock.interactable = true;
+        panelConfirm.SetActive(false);
+        textNotify.text = price.ToString();
     }
-    public void ClickToConfirm()
+    public void UnLock()
     {
-        //textConfirm.gameObject.SetActive(true);
-        //textConfirm.text = $"{money.GetMoney() - Random.Range(0, 500)}";
+        panelConfirm.SetActive(true);
+        panelConfirm.gameObject.transform.position = btn_lock.gameObject.transform.position;
+        return;
     }
-    public void ClickToBuy()
+    public void Confirm()
     {
-        //imgConfirm.gameObject.SetActive(true);
+        if (money.GetMoney() < price)
+        {
+            textNotify.text = $"You do not have enough {price}$";
+            return;
+        }
+        else
+        {
+            money.SetMoney(-price);
+            btn.interactable = true;
+            btn_lock.gameObject.SetActive(false);
+            panelConfirm.SetActive(false);
+        }
     }
-    public void CancelBuying()
+    public void CancelConfirm()
     {
-        //imgConfirm.gameObject.SetActive(false);
+        panelConfirm.SetActive(false);
     }
 }

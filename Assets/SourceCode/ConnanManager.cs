@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class ConnanManager : MonoBehaviour
 {
     public ParticleSystem connanFire;

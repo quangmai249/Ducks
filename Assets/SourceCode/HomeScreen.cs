@@ -4,7 +4,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
 public class HomeScreen : MonoBehaviour
 {
     public GameObject panelInformation;

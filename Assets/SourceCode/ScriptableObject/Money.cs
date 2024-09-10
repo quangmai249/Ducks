@@ -5,12 +5,10 @@ using UnityEngine;
 public class Money : ScriptableObject
 {
     [SerializeField] int _money;
-    int _amount;
     public void SetMoney(int m)
     {
-        this._money += m;
-        _amount = PlayerPrefs.GetInt("Money");
-        PlayerPrefs.SetInt("Money", _amount += m);
+        this._money = PlayerPrefs.GetInt("Money");
+        PlayerPrefs.SetInt("Money", this._money += m);
     }
     public int GetMoney()
     {
