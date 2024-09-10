@@ -1483,7 +1483,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a94ed05cc970946803728e539cbab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapSelection: {fileID: 11400000, guid: 692fc06e86623874a9e61d0a6c894d82, type: 2}
+  ls_map:
+  - {fileID: 1739153130918889006, guid: 277229067b269ba46a0c9a7b1d685454, type: 3}
+  - {fileID: 6427302355750310189, guid: 4ad7a5a7fc42f6b49945c81440d0dfe0, type: 3}
+  - {fileID: 5208382195266779343, guid: a2f1d92f44952b24198683def6ace7bf, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

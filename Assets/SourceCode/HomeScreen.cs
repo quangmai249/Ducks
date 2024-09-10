@@ -9,14 +9,12 @@ public class HomeScreen : MonoBehaviour
 {
     public GameObject panelInformation;
     public GameObject panelSetting;
-    public GameObject panelLeaderboard;
     public List<Texture> textures;
     public RawImage bgHome;
     private void Start()
     {
         panelInformation.SetActive(false);
         panelSetting.SetActive(false);
-        panelLeaderboard.SetActive(false);
         Time.timeScale = 1;
         bgHome = GameObject.Find("Background Home Screen").GetComponent<RawImage>();
         bgHome.texture = textures[RandomIndexTexture()];
@@ -40,13 +38,5 @@ public class HomeScreen : MonoBehaviour
     public void ClosePanelSeting()
     {
         panelSetting.SetActive(false);
-    }
-    public void ShowPanelLeaderboard()
-    {
-        panelLeaderboard.SetActive(true);
-    }
-    public void ClosePanelLeaderboard()
-    {
-        panelLeaderboard.SetActive(false);
     }
 }

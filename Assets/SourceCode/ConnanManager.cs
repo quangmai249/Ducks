@@ -12,7 +12,7 @@ public class ConnanManager : MonoBehaviour
     {
         gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         connanFireSound = GetComponent<AudioSource>();
-        connanFireSound.volume = setting.GetVolume();
+        connanFireSound.volume = 1f;
     }
     private void Update()
     {

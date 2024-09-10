@@ -54,9 +54,7 @@ public class GameManager : MonoBehaviour
         panelCountDownStartGame = GameObject.FindGameObjectWithTag("PanelCountdownStartGame");
         panelCountDownStartGame.SetActive(true);
 
-        if (topScore.GetTopScore().Count > 0)
-            textHighestScore.text = $"Highest Score: {topScore.GetTopScore().Max()}";
-        else textHighestScore.text = $"Highest Score: 0";
+        textHighestScore.text = $"Highest Score: {topScore.GetTopScore()}";
 
         StartCoroutine(nameof(CoroutineCountDownStartGame));
     }
