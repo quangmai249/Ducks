@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/HomeScreen.unity
     guid: dc76e380073c0644288a34ec7a1300da
   - enabled: 1
+    path: Assets/Scenes/MapSelection.unity
+    guid: d52289baf3ff9384db8bdd7b3cbf947c
+  - enabled: 1
     path: Assets/Scenes/TipScreen.unity
     guid: 5db1662df423d6a4a84227272c6eed45
   - enabled: 1
@@ -17,7 +20,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: fcb6b6036d740824c82282ec6a860990
-  - enabled: 1
-    path: Assets/Scenes/MapSelection.unity
-    guid: d52289baf3ff9384db8bdd7b3cbf947c
   m_configObjects: {}

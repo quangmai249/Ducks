@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2128581213782714132}
   - component: {fileID: 6473664725154298558}
   m_Layer: 0
-  m_Name: japanes island
+  m_Name: japan island
   m_TagString: Maps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

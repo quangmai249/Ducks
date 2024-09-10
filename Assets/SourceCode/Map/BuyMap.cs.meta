@@ -3,7 +3,13 @@ guid: 7f61f75d6f400b74bbd19f06a9feebed
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - textMoney: {instanceID: 0}
+  - textConfirm: {instanceID: 0}
+  - textName: {instanceID: 0}
+  - imgConfirm: {instanceID: 0}
+  - mapSelection: {fileID: 11400000, guid: 692fc06e86623874a9e61d0a6c894d82, type: 2}
+  - money: {fileID: 11400000, guid: cb771e86822261a4fbfbbcfd2a850d54, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

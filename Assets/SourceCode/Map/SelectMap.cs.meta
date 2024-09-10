@@ -3,7 +3,9 @@ guid: b01cd6894393b3044b787e85f526a979
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - mapSelection: {fileID: 11400000, guid: 692fc06e86623874a9e61d0a6c894d82, type: 2}
+  - btnPlayGame: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
